@@ -1,0 +1,66 @@
+<td> @if($transport->date->format('M') == 'Feb')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                             <td>@if($transport->date->format('M') == 'Mar')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                             <td>@if($transport->date->format('M') == 'Apr')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                             <td>@if($transport->date->format('M') == 'May')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                             <td>@if($transport->date->format('M') == 'Jun')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                            <td>@if($transport->date->format('M') == 'Jul')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                            <td>@if($transport->date->format('M') == 'Aug')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                            <td>@if($transport->date->format('M') == 'Sep')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                            <td>@if($transport->date->format('M') == 'Oct')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                            <td>@if($transport->date->format('M') == 'Nov')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
+                                                            <td>@if($transport->date->format('M') == 'Dec')
+                                                                <button class="btn btn-success">Ok</button>
+                                                                @else
+                                                                <button class="btn btn-danger">No</button>
+                                                                @endif
+                                                            </td>
